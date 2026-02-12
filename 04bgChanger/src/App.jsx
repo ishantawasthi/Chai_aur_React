@@ -12,7 +12,7 @@ function App() {
 
 
             <div className='fixed flex flex-wrap justify-center bottom-12 inset-x-0 px-2 ' >
-                   <div className='flex flex-wrap justify-center gap-3 shadow-2xs bg-white px-3 py-2 rounded-full text-white shadow-lg' >
+                   <div className='flex flex-wrap justify-center gap-3 bg-white px-3 py-2 rounded-full text-white shadow-lg' >
                                        <button  onClick={()=> setColor("red")}
                                         className='outline-none px-4'
                                          style={{backgroundColor: "red"}} >   {/* color passed as a props  */} 
